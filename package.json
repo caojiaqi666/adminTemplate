@@ -1,0 +1,31 @@
+{
+  "name": "admin-template",
+  "version": "1.0.0",
+  "description": "1. npm init 2.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "element-plus": "^2.9.11",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.3.0",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
+    "less": "^4.3.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
+  }
+}
