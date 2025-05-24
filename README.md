@@ -1,4 +1,6 @@
-## 项目初始化
+# 项目初始化
+
+## 安装依赖
 
 1. npm init
 1. 目录结构
@@ -326,3 +328,11 @@ export default defineConfig((mode: ConfigEnv): UserConfig => {
 }
 
 ```
+
+# 请求的详细配置
+
+见 `src/http/request.ts`
+
+# 路由的封装ˇ
+
+第7节
